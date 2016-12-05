@@ -29,5 +29,8 @@
 + [通用表单项验证规则](./share/validation.md) 
 + [scss初级使用](./developing-standards/scss-use.md)
 
+##服务器资源
++ [静态资源服务器](./developing-standards/server-list.md) 
+
 ##说明
 如果你发现以上文档里不合理或者有好的建议请直接直接Email：<a href="mailto:jiangchaoyi@zhongzhihui.com">jiangchaoyi@zhongzhihui.com</a>或者加微信：18670023771
