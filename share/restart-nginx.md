@@ -6,34 +6,34 @@
 　　打开回显或关闭请求回显功能，或显示消息。如果没有任何参数，echo 命令将显示当前回显设置。
 
     语法
-    ```
-　　echo [{on　off}] [message]
-　　Sample：@echo off / echo hello world
-    ```
+    
+　　```echo [{on　off}] [message]
+　　Sample：@echo off / echo hello world```
+    
     2.@ 命令
 　　表示不显示@后面的命令，在入侵过程中（例如使用批处理来格式化敌人的硬盘）自然不能让对方看到你使用的命令啦。
-    ```
-    Sample：@echo off
-　　@echo Now initializing the program,please wait a minite...
-    ```    
+    
+    ```Sample：@echo off
+　　@echo Now initializing the program,please wait a minite...```
+        
     3.Rem 命令
 　　注释命令，在C语言中相当与/*--------*/,它并不会被执行，只是起一个注释的作用，便于别人阅读和你自己日后修改。
-    ```
-　　Rem Message
-　　Sample：@Rem Here is the description.
-    ```
+    
+　　```Rem Message
+　　Sample：@Rem Here is the description.```
+    
 　　4.Pause 命令
 　　运行 Pause 命令时，将显示下面的消息：
     Press any key to continue . . .
-    ```
-　　Sample：
+    
+　　```Sample：
 　　@echo off
 　　:begin
 　　copy a:*.* d：\back
 　　echo Please put a new disk into driver A
 　　pause
-　　goto begin
-    ```
+　　goto begin```
+    
 　　在这个例子中，驱动器 A 中磁盘上的所有文件均复制到d:\back中。
     显示的注释提示您将另一张磁盘放入驱动器 A 时，pause 命令会使程序挂起，以便您更换磁盘，然后按任意键继续处理。
     
@@ -44,9 +44,9 @@
     6.Goto 命令
 　　指定跳转到标签，找到标签后，程序将处理从下一行开始的命令。
 　　语法：
-    ```
     goto label （label是参数，指定所要转向的批处理程序中的行。）
-　　Sample：
+    
+　　```Sample：
 　　if {%1}=={} goto noparms
     ```
     如果对此命令有兴趣可以从网上搜索相关的其他命令。
