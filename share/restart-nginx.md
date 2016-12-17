@@ -4,7 +4,6 @@
 
     1.Echo 命令
 　　打开回显或关闭请求回显功能，或显示消息。如果没有任何参数，echo 命令将显示当前回显设置。
-
     语法
 　　echo [{on　off}] [message]
 
@@ -12,8 +11,8 @@
 
     2.@ 命令
 　　表示不显示@后面的命令，在入侵过程中（例如使用批处理来格式化敌人的硬盘）自然不能让对方看到你使用的命令啦。
-
     Sample：@echo off
+
 　　@echo Now initializing the program,please wait a minite...
     
     3.Rem 命令
@@ -24,9 +23,7 @@
 　　Sample：@Rem Here is the description.
 
 　　4.Pause 命令
-
 　　运行 Pause 命令时，将显示下面的消息：
-
     Press any key to continue . . .
 
 　　Sample：
@@ -45,8 +42,8 @@
     
     6.Goto 命令
 　　指定跳转到标签，找到标签后，程序将处理从下一行开始的命令。
-　　语法：goto label （label是参数，指定所要转向的批处理程序中的行。）
-
+　　语法：
+    goto label （label是参数，指定所要转向的批处理程序中的行。）
 　　Sample：
 　　if {%1}=={} goto noparms
 
