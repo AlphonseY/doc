@@ -2,7 +2,7 @@
 ##常用的 bat 命令
 
     1. Echo 命令
-　　打开回显或关闭请求回显功能，或显示消息。如果没有任何参数，echo 命令将显示当前回显设置。
+　　打开回显或关闭请求回显功能，或显示消息。如果没有任何参数，echo 命令将显示当前回显设置。  
     语法   echo [{on　off}] [message]
     Sample：
     @echo off / echo hello world
