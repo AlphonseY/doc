@@ -2,24 +2,24 @@
 ##常用的 bat 命令
 
     1. Echo 命令
-　　打开回显或关闭请求回显功能，或显示消息。如果没有任何参数，echo 命令将显示当前回显设置。  
-    语法   echo [{on　off}] [message]
-    Sample：
+　　打开回显或关闭请求回显功能，或显示消息。如果没有任何参数，echo 命令将显示当前回显设置。   
+    语法   echo [{on　off}] [message]    
+    Sample：    
     @echo off / echo hello world
     
     2. @ 命令
 　　表示不显示@后面的命令，在入侵过程中（例如使用批处理来格式化敌人的硬盘）自然不能让对方看到你使用的命令啦。
     
-    Sample：
-    @echo off  
-　　@echo Now initializing the program,please wait a minite...
+    Sample：  
+    @echo off    
+　　@echo Now initializing the program,please wait a minite...   s
         
     3. Rem 命令
 　　注释命令，在C语言中相当与/*--------*/,它并不会被执行，只是起一个注释的作用，便于别人阅读和你自己日后修改。
     
 　　Rem Message
 　　Sample：
-    @Rem Here is the description
+    @Rem Here is the description.
     
 　　4. Pause 命令
 　　运行 Pause 命令时，将显示下面的消息：
